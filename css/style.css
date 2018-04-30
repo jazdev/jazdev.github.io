@@ -1337,7 +1337,7 @@
 	
 	@media only screen and (max-width: 479px) {
 	    #container {
-	        width: 300px;
+	        width: 400px;
 	        margin-top: 10px;
 	    }
 	    .extra-text {
@@ -1370,16 +1370,42 @@
 	    }
 	    /* About */
 	    .about {
-	        width: 280px;
+	        width: 100%;
 	        display: block;
-	        margin: 10px 0 15px 10px;
+	        margin: 10px 0 10px 0;
 	    }
+	    #aboutpic{
+	    	background: inherit!important;
+	    	margin-top: 10px;
+	    }
+	    #crossfade{
+	    	/*background: url(../images/photo-inner.png) no-repeat !important;*/
+	    	width: 173px;
+	    	height: 206px;
+	    	margin: 0 auto;
+	    }
+	    .personal-info {
+	    	display: none !important;
+	    }
+	    .personal-info-mobile {
+	    	display: block !important;
+		    margin-top: 0;
+		    margin-bottom: 20px;
+		    display: block;
+		    width: 100%;
+		    color: /*profileTextColor*/#a87f09;
+		    background: none;
+		    border-top: 1px solid/*mainColor*/#fdc750;
+		}
 	    .about .photo-inner {
-	        margin-left: 40px;
-	        background: url(../images/photo-inner.png) no-repeat;
-	        width: 192px;
-	        height: 212px;
-	        padding: 12px 0 0 20px;
+	    	background: none !important;
+		    width: 100%;
+		    text-align: center;;
+		    height: 212px;
+		    padding: 0;
+		}
+	    .about-header{
+	    	display: block;
 	    }
 	    .about h1 {
 	        line-height: 38px;
@@ -1429,7 +1455,7 @@
 	        height: 100px;
 	        background-color: #ededed;
 	        position: relative;
-	        width: 200px;
+	        width: 300px;
 	        padding-left: 50px;
 	        padding-right: 50px;
 	    }
@@ -1440,7 +1466,7 @@
 	        padding: 10px;
 	    }
 	    .timeline-section {
-	        width: 280px;
+	        width: 380px;
 	        padding-right: 60px;
 	    }
 	    .skills-section {
